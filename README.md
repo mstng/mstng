@@ -26,6 +26,12 @@ Building tools with AI. Learning in public.
 
 ---
 
+### 🌱 [ことのめ](https://kotonome.vercel.app) — [repo](https://github.com/mstng/kotonome)
+子どもの言葉を記録するモバイルファーストPWA。「きゅうきゅうしゃ」を忘れたくなくて作った。  
+`Next.js` `TypeScript` `shadcn/ui` `PWA`
+
+---
+
 ### 🗳️ [Vote Live](https://github.com/mstng/vote-live) — [repo](https://github.com/mstng/vote-live)
 チームミーティングで使えるリアルタイム匿名投票ツール。URLを共有するだけで賛成/反対/保留を即時集計。  
 `Node.js` `WebSocket` `JavaScript`
