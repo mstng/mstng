@@ -7,6 +7,12 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 🗼 [デスマーチ・スパイア](https://deathmarch-spire.vercel.app) — [repo](https://github.com/mstng/deathmarch-spire)
+エンジニアの開発現場をテーマにしたデッキ構築ローグライク。バグや仕様変更を倒し、リリースの頂を目指す。企画からリリースまで1日で作った初のゲーム作品。  
+`JavaScript` `HTML` `CSS`
+
+---
+
 ### 🌐 [Web タイムマシン](https://web-timemachine.vercel.app) — [repo](https://github.com/mstng/web-timemachine)
 1994〜2023年、Webデザインの歴史を8つの時代で体験できるインタラクティブサイト。  
 当時のニュースを、当時のデザインで読む。  
