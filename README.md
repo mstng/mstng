@@ -7,6 +7,13 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 🦁 [がおがお](https://gaogao-chi.vercel.app) — [repo](https://github.com/mstng/gaogao)
+2〜3歳向けの知育PWA。ライオン「がお」と、ことば・かず・いろ・おと であそぶ。  
+まだ文字が読めない娘のために、絵と音声だけで指1本で遊べるように作った。  
+`Next.js` `TypeScript` `Zustand` `PWA` `Web Speech`
+
+---
+
 ### 🗼 [デスマーチ・スパイア](https://deathmarch-spire.vercel.app) — [repo](https://github.com/mstng/deathmarch-spire)
 エンジニアの開発現場をテーマにしたデッキ構築ローグライク。バグや仕様変更を倒し、リリースの頂を目指す。企画からリリースまで1日で作った初のゲーム作品。  
 `JavaScript` `HTML` `CSS`
