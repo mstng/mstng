@@ -7,6 +7,13 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 🎱 [八球オラクル](https://eightball-rho.vercel.app) — [repo](https://github.com/mstng/eightball)
+問いを胸に球をふると、7人の占い師（老賢者・ギャル・毒舌・母・関西商売人・中二病・AI執事）が口調を変えてお告げを返す、令和版マジック8ボール。
+お告げは「バーナム効果＋問いの語ひろい＋ちょい毒」の3段生成。吉凶で球が発色し、Web Audioでドラムロール、吉なら紙吹雪。1ファイル完結。
+`HTML` `CSS` `JavaScript` `Web Audio API` `Canvas`
+
+---
+
 ### 🧭 [マンダラチャート](https://mandala-chart-umber.vercel.app) — [repo](https://github.com/mstng/mandala-chart)
 9×9マス（大谷選手の目標シート形式）の目標達成シートを作れるWebアプリ。ログイン不要で開いてすぐ書け、撮影・印刷で持ち出せる。ミラーセルは同期処理なしで自動連動する設計。  
 `Next.js` `TypeScript` `Tailwind CSS` `Zustand` `Supabase`
