@@ -7,6 +7,12 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 🧭 [マンダラチャート](https://mandala-chart-umber.vercel.app) — [repo](https://github.com/mstng/mandala-chart)
+9×9マス（大谷選手の目標シート形式）の目標達成シートを作れるWebアプリ。ログイン不要で開いてすぐ書け、撮影・印刷で持ち出せる。ミラーセルは同期処理なしで自動連動する設計。  
+`Next.js` `TypeScript` `Tailwind CSS` `Zustand` `Supabase`
+
+---
+
 ### 🦁 [がおがお](https://gaogao-chi.vercel.app) — [repo](https://github.com/mstng/gaogao)
 2〜3歳向けの知育PWA。ライオン「がお」と、ことば・かず・いろ・おと であそぶ。  
 まだ文字が読めない娘のために、絵と音声だけで指1本で遊べるように作った。  
