@@ -7,6 +7,13 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 🌀 [MASH らくがき未来占い](https://mash-pearl-xi.vercel.app) — [repo](https://github.com/mstng/mash)
+紙とペンの未来占い「MASH」の令和版。候補を書いて、うずまきを長押しして運命の数を決めると、消去ループで住まい・結婚相手・仕事…があなたの未来として確定する。
+効果音はWeb Audioで合成、キーボード操作にも対応。八球オラクルの型を流用した占いトイ2作目。
+`HTML` `CSS` `JavaScript` `Web Audio API` `Canvas`
+
+---
+
 ### 🎱 [八球オラクル](https://eightball-rho.vercel.app) — [repo](https://github.com/mstng/eightball)
 問いを胸に球をふると、7人の占い師（老賢者・ギャル・毒舌・母・関西商売人・中二病・AI執事）が口調を変えてお告げを返す、令和版マジック8ボール。
 お告げは「バーナム効果＋問いの語ひろい＋ちょい毒」の3段生成。吉凶で球が発色し、Web Audioでドラムロール、吉なら紙吹雪。1ファイル完結。
