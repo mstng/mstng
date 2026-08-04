@@ -7,6 +7,13 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 💬 [ELIZA 令和版](https://eliza-puce.vercel.app) — [repo](https://github.com/mstng/eliza)
+見た目は今どきのAIチャット、中身は1966年生まれの会話ボット「ELIZA」のルールエンジン。キーワード照合とオウム返しだけで"会話している感"を出す。
+右上の「タネあかし」で緑のターミナル（1966モード）に反転し、AIではないと明かされる。占いトイ三部作（振る/書く/話す）の締め。
+`HTML` `CSS` `JavaScript`
+
+---
+
 ### 🌀 [MASH らくがき未来占い](https://mash-pearl-xi.vercel.app) — [repo](https://github.com/mstng/mash)
 紙とペンの未来占い「MASH」の令和版。候補を書いて、うずまきを長押しして運命の数を決めると、消去ループで住まい・結婚相手・仕事…があなたの未来として確定する。
 効果音はWeb Audioで合成、キーボード操作にも対応。八球オラクルの型を流用した占いトイ2作目。
