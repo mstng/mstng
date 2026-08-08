@@ -9,7 +9,7 @@ Building tools with AI. Learning in public.
 
 ### 📜 [ぼうけんのしょメーカー](https://boken-no-sho.vercel.app) — [repo](https://github.com/mstng/boken-no-sho)
 状況質問で性格を診断し、入力した名前で隠しステータスが変わる冒険者キャラシート生成トイ。「なまえを変える」と答えはそのままに能力値だけ変わる。
-1988年RPGの「性格診断クイズ」「名前で成長率が変わる隠し仕様」へのオリジナル・オマージュ（特定作品のブランド・素材は不使用）。
+『ドラゴンクエストIII』(1988)の性格診断と、名前で成長率が変わる隠し仕様に着想を得たオリジナル・オマージュ（同作のブランド・素材は不使用）。
 `HTML` `CSS` `JavaScript` `Web Audio API`
 
 ---
