@@ -7,6 +7,13 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 📱 [こころのホーム画面メーカー](https://kokoro-home.vercel.app) — [repo](https://github.com/mstng/kokoro-home)
+名前を入れると、あなたの関心事がスマホのホーム画面（アプリアイコン＋通知バッジ）として並ぶ可視化トイ。推し活・課金・締切・承認欲求…を可視化してスクショ感覚でシェアできる。
+2007年『脳内メーカー』を「頭の中→スマホのホーム画面」に翻訳した令和版オマージュ（同作・特定OSの素材は不使用）。
+`HTML` `CSS` `JavaScript` `Canvas` `Web Audio API`
+
+---
+
 ### 📜 [ぼうけんのしょメーカー](https://boken-no-sho.vercel.app) — [repo](https://github.com/mstng/boken-no-sho)
 状況質問で性格を診断し、入力した名前で隠しステータスが変わる冒険者キャラシート生成トイ。「なまえを変える」と答えはそのままに能力値だけ変わる。
 『ドラゴンクエストIII』(1988)の性格診断と、名前で成長率が変わる隠し仕様に着想を得たオリジナル・オマージュ（同作のブランド・素材は不使用）。
