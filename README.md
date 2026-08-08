@@ -7,6 +7,13 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 📜 [ぼうけんのしょメーカー](https://boken-no-sho.vercel.app) — [repo](https://github.com/mstng/boken-no-sho)
+状況質問で性格を診断し、入力した名前で隠しステータスが変わる冒険者キャラシート生成トイ。「なまえを変える」と答えはそのままに能力値だけ変わる。
+1988年RPGの「性格診断クイズ」「名前で成長率が変わる隠し仕様」へのオリジナル・オマージュ（特定作品のブランド・素材は不使用）。
+`HTML` `CSS` `JavaScript` `Web Audio API`
+
+---
+
 ### 💬 [ELIZA 令和版](https://eliza-puce.vercel.app) — [repo](https://github.com/mstng/eliza)
 見た目は今どきのAIチャット、中身は1966年生まれの会話ボット「ELIZA」のルールエンジン。キーワード照合とオウム返しだけで"会話している感"を出す。
 右上の「タネあかし」で緑のターミナル（1966モード）に反転し、AIではないと明かされる。占いトイ三部作（振る/書く/話す）の締め。
