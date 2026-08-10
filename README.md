@@ -7,6 +7,13 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 🕰️ [いくらだったの？](https://ikura-datta.vercel.app) — [repo](https://github.com/mstng/ikura-datta)
+明治8年〜2024年の物価で日本を時間旅行するミニアプリ。年代当てクイズ・任意の年の物価探索・生まれ年の物価カード共有の3モードで遊べる。
+品目の登場年管理・銭/厘表示・対数の推移グラフつき。主要系列は総務省CPI・値段史などの公開統計で裏取り（その他は概算と明記）。
+`HTML` `CSS` `JavaScript` `Canvas` `SVG` `Web Audio API`
+
+---
+
 ### 📱 [こころのホーム画面メーカー](https://kokoro-home.vercel.app) — [repo](https://github.com/mstng/kokoro-home)
 名前を入れると、あなたの関心事がスマホのホーム画面（アプリアイコン＋通知バッジ）として並ぶ可視化トイ。推し活・課金・締切・承認欲求…を可視化してスクショ感覚でシェアできる。
 2007年『脳内メーカー』を「頭の中→スマホのホーム画面」に翻訳した令和版オマージュ（同作・特定OSの素材は不使用）。
