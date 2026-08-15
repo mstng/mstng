@@ -7,6 +7,13 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 🌳 [idle-kit（そだつ）](https://idle-kit.vercel.app) — [repo](https://github.com/mstng/idle-kit)
+放置育成ゲームの「型」。遊べる完成品ではなく、次にちゃんとした放置ゲーを作るときそのまま流用できる参考実装として書いた。
+実時間tick・オフライン進行・指数コスト曲線・転生・巨大数対応・オートバイヤー・バランスシミュレータまでを依存パッケージゼロで実装。ルールを純粋関数に閉じたので、数日ぶんのプレイを0.2秒で早送りして設計の欠陥を洗い出せる。12の型それぞれに「なぜそう作ったか」と実際に失敗して直した記録をREADMEに残している。
+`JavaScript` `ES Modules` `PWA` `node:test`
+
+---
+
 ### 🕰️ [いくらだったの？](https://ikura-datta.vercel.app) — [repo](https://github.com/mstng/ikura-datta)
 明治8年〜2024年の物価で日本を時間旅行するミニアプリ。年代当てクイズ・任意の年の物価探索・生まれ年の物価カード共有の3モードで遊べる。
 品目の登場年管理・銭/厘表示・対数の推移グラフつき。主要系列は総務省CPI・値段史などの公開統計で裏取り（その他は概算と明記）。
