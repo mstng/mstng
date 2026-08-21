@@ -7,6 +7,15 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 🧬 [言語系譜](https://gengo-keifu.vercel.app) — [repo](https://github.com/mstng/gengo-keifu)
+FORTRAN(1957)からZig(2016)まで、主要60言語の「誰が誰に影響を与えたか」を1枚の家系図にした読み物。
+言語をクリックすると祖先と子孫だけが浮かび上がり、その言語が**いま何を動かしているか**（COBOLは銀行の勘定系、Selfは実用ゼロだがJIT技術がV8とHotSpotに直結、など）まで読める。影響線は106本。
+GIGAZINE(2007)が紹介していた Éric Lévénez の約2500言語の系統図が元ネタ。そこから主要60言語を抜き出し、影響関係を自前で整理し直した。
+データの原本はPython側に置いて index.html を生成する一方通行にし、列の衝突・孤立ノード・親子の年順をテストで検出する構成にしている。
+`HTML` `CSS` `JavaScript` `SVG` `node:test` `Python`
+
+---
+
 ### 🏢 [開発会社物語](https://kaihatsu-monogatari.vercel.app) — [repo](https://github.com/mstng/kaihatsu-monogatari)
 小さな開発会社を経営するシミュレーション。案件を受け、技術を選び、社員を育てて会社を続けていく。
 ジャンル×技術の21通りの相性が隠されていて、当たりを引くと数字が跳ねる。一度試した組み合わせは記録され、次に活きる。
