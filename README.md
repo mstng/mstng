@@ -7,6 +7,15 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 🚀 [星よけダッシュ](https://browser-game-phi-orcin.vercel.app) — [repo](https://github.com/mstng/star-dodge)
+宇宙船を左右に動かし、落ちてくる流星を60秒間避け続けるアクションゲーム。
+15秒ごとにレベルが上がり（最大4）、後半は流星の速度と密度が上がる。
+ゲームロジックをUI描画から切り離し、衝突判定・難易度・スコア計算を`node:test`で4件検証。
+**AIエージェント（Codex）に設計から実装まで一任した**実験作。キーボード＋タッチ操作対応。
+`JavaScript` `ES Modules` `node:test`
+
+---
+
 ### ⚔️ [rpg-kit](https://rpg-kit-topaz.vercel.app) — [repo](https://github.com/mstng/rpg-kit)
 19日以内に20階の底のドラゴンを倒す、ターン制コマンドバトルの「型」。
 作りながら二度「単調だ」という壁にぶつかり、二度とも同じ直し方をした——**選択肢を足すのではなく、先の情報を1つ開示する**。
