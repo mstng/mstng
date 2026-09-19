@@ -16,7 +16,7 @@ Building tools with AI. Learning in public.
 
 ---
 
-### 🥚 [デジタルモンスター 3D](https://digital-monster-play.masato-nahoo.chatgpt.site) — 本人限定公開 / [repo](https://github.com/mstng/digital-monster-play)
+### 🥚 [デジタルモンスター 3D](https://digital-monster-play.masato-nahoo.chatgpt.site) — 本人限定公開
 携帯育成玩具「デジタルモンスター」を3Dで再現した、非公式のブラウザ育成ゲーム。
 **本体を回転させられる**ようにしてあり、3つのボタンで食事・特訓・掃除・睡眠を操作する。
 タイミング特訓とターン制バトルを搭載し、**育て方に応じて進化が分岐する**。
