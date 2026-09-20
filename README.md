@@ -63,7 +63,7 @@ DBは組み込みの**PGlite**をNode内で動かすので、Dockerも外部DB�
 
 ---
 
-### 🔐 [認証の歴史](https://mstng-portfolio.vercel.app/works/auth-history.html) — [repo](https://github.com/mstng/mstng-portfolio/blob/main/public/works/auth-history.html)
+### 🔐 [認証の歴史](https://mstng-portfolio.vercel.app/works/auth-history.html)
 1961年のMIT CTSSから現在のパスキーまで、認証技術65年を**「破られては、作り直されてきた」因果**で並べた年表。
 共有秘密・Webセッション・企業SSO・権限委譲・パスワードレスの5世代が、置き換わるのではなく**消えずに積み重なっている**様子と、パスワードハッシュ・多要素認証の2つの系譜を1枚にまとめた。
 ID基盤の仕事で使うOAuth/OIDC学習の補助資料として作成。フレームワークなしの静的HTML1ファイル。
@@ -203,7 +203,7 @@ GIGAZINE(2007)が紹介していた Éric Lévénez の約2500言語の系統図
 
 ---
 
-### 🌱 [ことのめ](https://kotonome.vercel.app) — [repo](https://github.com/mstng/kotonome)
+### 🌱 [ことのめ](https://kotonome.vercel.app)
 子どもの言葉を記録するモバイルファーストPWA。「きゅうきゅうしゃ」を忘れたくなくて作った。  
 `Next.js` `TypeScript` `shadcn/ui` `PWA`
 
