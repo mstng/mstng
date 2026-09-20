@@ -7,6 +7,17 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 🔐 [Authentication Learning Lab](https://github.com/mstng/auth-learning-lab) — [repo](https://github.com/mstng/auth-learning-lab)
+Password認証とSession認証を実際に動かし、**HTTP・Cookie・DBが何をどう保存するか**を目で追える学習アプリ。
+「ログインすると何が保存される？」「次のアクセスでは何を送る？」「ログアウトすると何が消える？」
+「ログアウト後も情報を見られる？」の**4つの問いを1画面ずつ**確かめる構成で、
+各操作の前後でCookieの値とDBの件数を並べて比べられる。最後の401が正しい結果だと分かるところまで運ぶ。
+DBは組み込みの**PGlite**をNode内で動かすので、Dockerも外部DBも要らず clone してすぐ起動できる。
+仕事で扱うID基盤の理解を深めるために作った教材。デモは持たず、リポジトリが本体。
+`Next.js` `TypeScript` `PGlite` `bcrypt` `Playwright`
+
+---
+
 ### 📅 [トシガタリ](https://toshi-gatari.vercel.app) — [repo](https://github.com/mstng/toshi-gatari)
 1950〜2026年の77年間を、1年ぶん1枚のカードで振り返る年表サイト。
 世の中の流行まとめは「音楽は音楽だけ」とカテゴリ別に縦へ切られていることが多い。これを**年で横に切り直す**と、その年の空気が一度に立ち上がる——1998年を選べば、夜空ノムコウとタイタニックと長野五輪と「だっちゅーの」と、はがき50円が同じ画面に並ぶ。音楽・映画・ドラマ・アニメ・本・ゲーム・CM・流行語・ヒット商品・ファッション・食べもの・スポーツ・モノの値段・出来事の**14カテゴリ × 77年 = 約4,900項目**。
@@ -23,6 +34,23 @@ Building tools with AI. Learning in public.
 育成データはブラウザ内に自動保存される。
 実機ROMの忠実な再現ではなく、育成・バトルのルールは独自に調整したファン作品。
 `React` `TypeScript` `Three.js` `Canvas` `Web Audio API` `localStorage`
+
+---
+
+### 🫀 [心臓のなか 3D](https://shinzou-real-3d.masato-nahoo.chatgpt.site) — 本人限定公開
+心臓手術のあと、心臓の構造と血液の流れを立体で学ぶために作った3Dアトラス。
+公開の解剖学データをもとに、**外観・断面・血流の3モード**で観察できる。
+モデルの回転・拡大に加え、拍動の再生・停止と速度も操作できる。
+2Dの「心臓のなか」を立体でやり直した一作。
+`React` `TypeScript` `Three.js` `React Three Fiber`
+
+---
+
+### 📜 [三国志年代記](https://sangokushi-jin.masato-nahoo.chatgpt.site/)
+黄巾の乱（184年）から東晋の終焉（420年）まで、三国志**とその後**を12章でたどるインタラクティブ年表。
+51人の人物録と12の合戦録を収録し、人物・合戦・王朝のつながりを行き来しながら読める。
+**史実と『三国志演義』の違い**も明示してある。物語が終わったあとの歴史まで含めたのが狙い。
+`React` `TypeScript` `データ可視化`
 
 ---
 
@@ -49,6 +77,14 @@ ID基盤の仕事で使うOAuth/OIDC学習の補助資料として作成。フ�
 ゲームロジックをUI描画から切り離し、衝突判定・難易度・スコア計算を`node:test`で4件検証。
 **AIエージェント（Codex）に設計から実装まで一任した**実験作。キーボード＋タッチ操作対応。
 `JavaScript` `ES Modules` `node:test`
+
+---
+
+### 🫀 [心臓のなか](https://shinzou-no-naka.vercel.app) — [note](https://note.com/mstng/n/nbca80885b6de)
+自分自身の心臓手術をテーマに、心臓内の血流を**止めて・巻き戻して・コマ送りで**追える可視化。
+一番見せたい相手は家族なので、医学知識ゼロでも分かることを最優先にした。
+全4章のうち公開しているのは第1・2章まで（第3・4章の内容はnoteの続編記事にまとめた）。
+`HTML` `CSS` `JavaScript`
 
 ---
 
@@ -176,6 +212,40 @@ GIGAZINE(2007)が紹介していた Éric Lévénez の約2500言語の系統図
 ### 🗳️ [Vote Live](https://github.com/mstng/vote-live) — [repo](https://github.com/mstng/vote-live)
 チームミーティングで使えるリアルタイム匿名投票ツール。URLを共有するだけで賛成/反対/保留を即時集計。  
 `Node.js` `WebSocket` `JavaScript`
+
+---
+
+### 📚 [三国志歴史図鑑](https://sangokushi-zukan.vercel.app/) — [repo](https://github.com/mstng/sangokushi-zukan)
+好きが高じてAIと作った、武将1776人の歴史図鑑。Wikidataから人物データを取得し、
+タイムライン・相関図・戦場マップ・物語を横断できる。
+人物データの生成からビジュアルまでAIと分業した、**物量勝負**の一作。
+`HTML` `CSS` `JavaScript` `AI生成コンテンツ`
+
+---
+
+### 📈 [EngGrowth](https://eng-growth.vercel.app/) — [repo](https://github.com/mstng/eng-growth)
+エンジニアスキルを**5カテゴリ22項目**のレーダーチャートで可視化する成長記録ツール。
+サーバーを持たずLocalStorageに保存するので、ログインなしで開いてすぐ書ける。
+`D3.js` `JavaScript` `LocalStorage`
+
+---
+
+### 🎮 [Gamemory](https://gamemory-cyan.vercel.app/)
+プレイしたゲームを記録・振り返りできるアプリ。RAWG APIからタイトル情報を引いてくる。
+`Next.js` `Supabase` `RAWG API`
+
+---
+
+### 🏢 [野口装飾 コーポレートサイト](https://noguchi-soshoku.vercel.app/)
+実在する内装業のコーポレートサイトを、設計から公開まで担当した。
+**実案件**としてのヒアリングと要件整理も含む。作って終わりではない一件。
+`Next.js` `Tailwind CSS` `Vercel`
+
+---
+
+### 🍾 ながしびん — 開発中
+匿名のメッセージをボトルに入れて流し、誰かが拾うサービス。Phase1まで完了。
+`Node.js` `Supabase`
 
 ---
 
