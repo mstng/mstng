@@ -8,13 +8,14 @@ Building tools with AI. Learning in public.
 ## 🚀 Projects
 
 ### 🔐 [Authentication Learning Lab](https://github.com/mstng/auth-learning-lab) — [repo](https://github.com/mstng/auth-learning-lab)
-Password認証とSession認証を実際に動かし、**HTTP・Cookie・DBが何をどう保存するか**を目で追える学習アプリ。
-「ログインすると何が保存される？」「次のアクセスでは何を送る？」「ログアウトすると何が消える？」
-「ログアウト後も情報を見られる？」の**4つの問いを1画面ずつ**確かめる構成で、
-各操作の前後でCookieの値とDBの件数を並べて比べられる。最後の401が正しい結果だと分かるところまで運ぶ。
-DBは組み込みの**PGlite**をNode内で動かすので、Dockerも外部DBも要らず clone してすぐ起動できる。
-仕事で扱うID基盤の理解を深めるために作った教材。デモは持たず、リポジトリが本体。
-`Next.js` `TypeScript` `PGlite` `bcrypt` `Playwright`
+Password認証・Session認証・JWTを実際に動かし、**予想してから、HTTP・Cookie・DB・検証結果で確かめる**学習アプリ。
+1画面1問のガイドで「まだわからない」も選べ、予想が外れても先へ進める。
+Session編では操作前後のCookieとDBを比較。PHASE 7のJWT編では**Header / Payload / Signatureを分解**し、
+「署名は暗号化ではない」を確かめた後、Payloadの改ざん・自然な期限切れ・alg:noneが拒否される理由を実験する。
+署名・検証はjoseのRS256を使い、説明の図と実際の観測記録を区別している。
+DBは組み込みの**PGlite**をNode内で動かすため、Dockerも外部DBも不要。
+仕事で扱うID基盤を「なぜそうなるか」から理解するための教材。手元で動かす構成で、リポジトリが本体。
+`Next.js` `TypeScript` `PGlite` `bcrypt` `jose` `Playwright`
 
 ---
 
