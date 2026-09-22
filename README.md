@@ -7,6 +7,26 @@ Building tools with AI. Learning in public.
 
 ## 🚀 Projects
 
+### 📚 [技術記事の殿堂の書庫](https://qiita-hall-of-fame.vercel.app) — [Zenn版](https://zenn-hall-of-fame.vercel.app)
+QiitaとZennの人気記事**16,000件**（Qiita 6,136 / Zenn 10,000）を、いいね順に検索・絞り込みできる書庫。
+読んだ記事にチェックを付けられるので、積読の管理にも使える。
+
+作ってみて分かったのは、**QiitaもZennもいいね順では取得できない**ということ。
+Qiitaの `sort=like` は新着順を返し、`likes:>1000` は0件、`lgtm:>1000` に至っては
+**本文から「lgtm」「1000」を全文検索しているだけの偽物**だった
+（`>500` で295件、`>1000` で310件と件数が逆転することで気づいた）。
+Zennの `order=liked_count` も指定なしと完全に同じ結果を返す。
+そこで**効く指標**（Qiitaはストック数、Zennは `alltime`）で母集団を作り、取得後に手元で並べ替えている。
+
+いいねは減らずに積み上がるため、素直に並べると古い記事ばかりが上位に来る
+（Qiita版のトップ20のうち16本が2011〜2018年だった）。
+経過年数で割った「**年あたりいいね**」を並べ替え軸に加えて補正している。
+
+本文は一切持たず、タイトル・著者・URL・いいね数などの書誌情報だけを扱う。両サイトとも `noindex`。
+`Python` `HTML` `CSS` `JavaScript` `Qiita API`
+
+---
+
 ### 🔐 [Authentication Learning Lab](https://github.com/mstng/auth-learning-lab) — [repo](https://github.com/mstng/auth-learning-lab)
 Password認証・Session認証・JWTを実際に動かし、**予想してから、HTTP・Cookie・DB・検証結果で確かめる**学習アプリ。
 1画面1問のガイドで「まだわからない」も選べ、予想が外れても先へ進める。
