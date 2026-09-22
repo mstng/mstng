@@ -27,7 +27,7 @@ Zennの `order=liked_count` も指定なしと完全に同じ結果を返す。
 
 ---
 
-### 🔐 [Authentication Learning Lab](https://github.com/mstng/auth-learning-lab) — [repo](https://github.com/mstng/auth-learning-lab)
+### 🔐 [Authentication Learning Lab](https://auth-learning-lab.vercel.app) — [repo](https://github.com/mstng/auth-learning-lab)
 Password認証・Session認証・JWTを実際に動かし、**予想してから、HTTP・Cookie・DB・検証結果で確かめる**学習アプリ。
 1画面1問のガイドで「まだわからない」も選べ、予想が外れても先へ進める。
 Session編では操作前後のCookieとDBを比較。PHASE 7のJWT編では**Header / Payload / Signatureを分解**し、
@@ -38,7 +38,9 @@ PHASE 9では**Access / Refresh Tokenの期限切れ・更新・ローテーシ�
 更新を止めても発行済みAccessが期限内は使える理由を、通信とDBの世代記録から確かめる。
 署名・検証はjoseのRS256を使い、説明の図と実際の観測記録を区別している。
 DBは組み込みの**PGlite**をNode内で動かすため、Dockerも外部DBも不要。
-仕事で扱うID基盤を「なぜそうなるか」から理解するための教材。手元で動かす構成で、リポジトリが本体。
+仕事で扱うID基盤を「なぜそうなるか」から理解するための教材。
+**公開デモはブラウザごとに学習空間が分かれる**ので、他の人の操作は見えない。
+デモはデータをメモリ上だけで持つため、時間をおくと最初から始まる（手元で動かせば進捗は残る）。
 `Next.js` `TypeScript` `PGlite` `bcrypt` `jose` `Playwright`
 
 ---
