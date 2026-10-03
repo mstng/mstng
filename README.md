@@ -27,6 +27,20 @@ Zennの `order=liked_count` も指定なしと完全に同じ結果を返す。
 
 ---
 
+### 🌬️ [KAZE — 首都圏の風](https://kaze-wind.vercel.app)
+首都圏の風を**粒子の流れ**で描くインタラクティブな風マップ。air.nullschool.net に着想を得た独自実装。
+Open-Meteo の予報を 9×9 地点で取得し、気象の「風向（吹いて**くる**方向）」を
+東西・南北の速度ベクトルに直してから双線形補間する。向きを角度のまま平均すると
+北をまたぐ場面で破綻するため、ベクトルに直してから混ぜている。
+時刻を動かすと**粒子の位置を保ったまま 700ms かけて速度を混ぜる**ので、流れが途切れない。
+数値と等値面だけは即座に切り替わり、補間は粒子にだけ効かせている。
+地点をクリックすると市区町村名（国土地理院の逆ジオコーダ）と24時間グラフが出る。
+予報が期限切れになると現在時刻モードを自動で止め、過去分は閲覧だけ残す。
+お気に入りは localStorage に保存。**依存パッケージはゼロ**で、Leaflet 1.9.4 は同梱。回帰テスト32件。
+`JavaScript` `ES Modules` `Canvas` `Leaflet` `Open-Meteo API` `node:test`
+
+---
+
 ### 🔐 [Authentication Learning Lab](https://auth-learning-lab.vercel.app) — [repo](https://github.com/mstng/auth-learning-lab)
 Password認証・Session認証・JWTを実際に動かし、**予想してから、HTTP・Cookie・DB・検証結果で確かめる**学習アプリ。
 1画面1問のガイドで「まだわからない」も選べ、予想が外れても先へ進める。
