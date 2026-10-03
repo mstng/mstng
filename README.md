@@ -87,11 +87,12 @@ DBは組み込みの**PGlite**をNode内で動かすため、Dockerも外部DB�
 
 ---
 
-### 📜 [三国志年代記](https://sangokushi-jin.masato-nahoo.chatgpt.site/)
+### 📜 [三国志年代記](https://sangokushi-jin.masato-nahoo.chatgpt.site/) — [repo](https://github.com/mstng/sangokushi-jin)
 黄巾の乱（184年）から東晋の終焉（420年）まで、三国志**とその後**を12章でたどるインタラクティブ年表。
 51人の人物録と12の合戦録を収録し、人物・合戦・王朝のつながりを行き来しながら読める。
 **史実と『三国志演義』の違い**も明示してある。物語が終わったあとの歴史まで含めたのが狙い。
-`React` `TypeScript` `データ可視化`
+解説文・人物紹介は ChatGPT の支援で作成し、実行時にAIは呼ばない静的サイト。
+`HTML` `CSS` `JavaScript`
 
 ---
 
