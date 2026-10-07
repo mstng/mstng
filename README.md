@@ -27,6 +27,15 @@ Zennの `order=liked_count` も指定なしと完全に同じ結果を返す。
 
 ---
 
+### 👟 [SOLE ARCHIVE](https://sole-archive.vercel.app) — [repo](https://github.com/mstng/mstng-lab/tree/main/sole-archive)
+NIKE/JORDAN・SALOMON・On・HOKA の4ブランド8足を眺めるスニーカーギャラリー。
+ブランドを切り替えると画面の演出も変わり、展示モードでは拡大・ドラッグ・背景の切り替えで一足ずつ観察できる。
+ChatGPT で制作した静的サイト。当初は公式の商品画像を出典つきで載せていたが、
+**出典表示は利用許諾ではない**ため、すべて Wikimedia Commons の自由ライセンス写真（CC0 / CC BY-SA）に差し替えた。
+`HTML` `CSS` `JavaScript`
+
+---
+
 ### 🌬️ [KAZE — 首都圏の風](https://kaze-wind.vercel.app)
 首都圏の風を**粒子の流れ**で描くインタラクティブな風マップ。air.nullschool.net に着想を得た独自実装。
 Open-Meteo の予報を 9×9 地点で取得し、気象の「風向（吹いて**くる**方向）」を
