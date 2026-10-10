@@ -27,6 +27,15 @@ Zennの `order=liked_count` も指定なしと完全に同じ結果を返す。
 
 ---
 
+### 🌌 [GALAXIA — 銀河の大パノラマ](https://galaxy-panorama.vercel.app)
+ESO/S. Brunier の実写全天写真で、天の川を**360度見渡す**星空ビューアー。
+写真を WebGL で球面に投影し、ドラッグ・ピンチ・ホイール・矢印キーで視点を動かせる。
+自動遊覧、全画面表示、操作パネルを隠して眺めるモード、表示位置を選べるミニマップつき。
+ChatGPT Codex で制作した静的サイト。写真は CC BY 4.0（Credit: ESO/S. Brunier）。
+`HTML` `CSS` `JavaScript` `WebGL`
+
+---
+
 ### 👟 [SOLE ARCHIVE](https://sole-archive.vercel.app) — [repo](https://github.com/mstng/mstng-lab/tree/main/sole-archive)
 NIKE/JORDAN・SALOMON・On・HOKA の4ブランド8足を眺めるスニーカーギャラリー。
 ブランドを切り替えると画面の演出も変わり、展示モードでは拡大・ドラッグ・背景の切り替えで一足ずつ観察できる。
