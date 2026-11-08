@@ -27,6 +27,14 @@ Zennの `order=liked_count` も指定なしと完全に同じ結果を返す。
 
 ---
 
+### 🍸 [VELVET POUR](https://velvet-pour-kappa.vercel.app)
+カクテルとモクテル68品のレシピ図鑑。カクテル名や材料で検索でき、ベースのお酒で絞り込める。
+材料と作り方を1杯分で表示し、手順のコピーやレシピへの共有リンクにも対応。お気に入りはブラウザに保存。
+68品の写真風画像は **AI生成**。ChatGPT Codex で制作した静的サイト。
+`HTML` `CSS` `JavaScript` `localStorage`
+
+---
+
 ### 🍝 [PASTA PORN](https://pasta-porn.vercel.app)
 空腹時、閲覧注意。20種類のパスタを、料理雑誌のような大きな写真で眺めるギャラリー。
 ソースの種類で絞り込み、写真を拡大して左右キーやスワイプでめくれる。迷ったら「今夜の一皿」でランダムに1皿。
